@@ -1,29 +1,20 @@
 <template>
-    <div id="app">
+    <div>
+        <nav></nav>
         <home></home>
     </div>
 </template>
 
 <script>
+  import nav from './components/nav'
   import home from './components/home'
 
   export default {
     name: 'app',
     components: {
+      nav,
       home
     },
     data: {}
   }
 </script>
-
-<style>
-    #app {
-        background-color: #333333;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        position: fixed;
-        text-align: center;
-        }
-</style>
