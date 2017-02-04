@@ -18,14 +18,12 @@ Read more at http://izquotes.com/quote/327278]">
         <div id="about" class="container-fluid font text-center">
             <h2>&lt;about/&gt;</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </p>
+                Hello World! <br>
+                My name is Paul. Originally from the far east country Kirghizia I'm living in the
+                beautiful city of Hamburg for over twenty years now. Since I was a boy I'm fascinated by technology.
+                Until today I'm expanding my knowledge and skills in various areas of development.
+                Also I'm familiar with technologies like Java, Spring and Hibernate, I'm always looking for new
+                interesting challenges.
         </div>
         <div id="projects" class="container-fluid font text-center">
             <h2>&lt;projects/&gt;</h2>
@@ -82,7 +80,7 @@ Read more at http://izquotes.com/quote/327278]">
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 60%;
+        width: 50%;
         height: 50%;
         border: 1px solid #4c4c4c;
     }
@@ -111,6 +109,11 @@ Read more at http://izquotes.com/quote/327278]">
 
     blockquote p {
         display: inline;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
     }
 
 </style>
