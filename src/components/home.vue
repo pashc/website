@@ -3,8 +3,8 @@
         <div class="container-fluid font text-center">
             <img src="../assets/avatar_small.png" class="img-circle img-width" alt="Paul Werner">
             <h1>{{ name }}</h1>
-            <h2>{{ profession }}</h2>
-            <blockquote cite="[Interview in Cosmic Search, Vol. 1, No. 4 (Fall 1979). Sometimes this quote is attributed to Albert Einstein himself.
+            <h2>&lt;{{ profession }}/&gt;</h2>
+            <blockquote class="font" cite="[Interview in Cosmic Search, Vol. 1, No. 4 (Fall 1979). Sometimes this quote is attributed to Albert Einstein himself.
 Read more at http://izquotes.com/quote/327278]">
                 <p>
                     Einstein's Three Rules of Work:
@@ -28,12 +28,12 @@ Read more at http://izquotes.com/quote/327278]">
         </div>
         <div id="projects" class="container-fluid font text-center">
             <h2>&lt;projects/&gt;</h2>
-            <h3>Magicline GmbH</h3>
+            <h3>&#123;Magicline GmbH&#125;</h3>
             <p>
                 The Magicline 2.0 is a reinvention of a award-winning customer administration tool for fitness centers
                 based on Java and Spring.
             </p>
-            <h3>Varengold GmbH</h3>
+            <h3>&#123;Varengold GmbH&#125;</h3>
             <p>
                 Developing a payment system for power of attorney broker for a modern investment bank based on Java.
             </p>
@@ -69,18 +69,19 @@ Read more at http://izquotes.com/quote/327278]">
 <style scoped>
     .container-fluid {
         background-color: #2d2d2d;
-        padding: 20px;
+        border: 1px solid #4c4c4c;
+        height: 50%;
         margin-top: 20px;
         margin-bottom: 20px;
+        min-width: 280px;
+        padding: 20px;
         width: 50%;
-        height: 50%;
-        border: 1px solid #4c4c4c;
     }
 
     .font {
         color: #d8d6cf;
         font-weight: normal;
-        font-size: 1.2vw;
+        font-size: calc(8px + 0.8vw);
         font-family: Courier, serif;
     }
 
@@ -119,15 +120,17 @@ Read more at http://izquotes.com/quote/327278]">
     }
 
     h1 {
-        font-size: 2.6vw;
+        font-size: calc(14px + 1.6vw)
     }
 
     h2 {
-        font-size: 2.0vw;
+        font-size: calc(12px + 1.2vw);
+        font-weight: 100;
     }
 
     h3 {
-        font-size: 1.6vw;
+        padding-top: 8px;
+        font-size: calc(10px + 1.0vw)
     }
 
     h2, h3 {
