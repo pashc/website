@@ -3,10 +3,16 @@
         <div class="container-fluid font text-center">
             <img src="../assets/avatar_small.png" class="img-circle" alt="Paul Werner">
             <h2 class="font text-center">{{ name }}</h2>
-            <blockquote cite="http://www.goodreads.com/work/quotes/487229-the-quotable-einstein">
-                Out of clutter, find simplicity. From discord, find harmony. In the middle of difficulty lies
-                opportunity.<br>
-                <small>Albert Einstein, The Quotable Einstein</small>
+            <h3>{{ profession }}</h3>
+            <blockquote cite="[Interview in Cosmic Search, Vol. 1, No. 4 (Fall 1979). Sometimes this quote is attributed to Albert Einstein himself.
+Read more at http://izquotes.com/quote/327278]">
+                <p>
+                    Einstein's Three Rules of Work:
+                    Out of clutter find simplicity.
+                    From discord find harmony.
+                    In the middle of difficulty lies opportunity.
+                </p>
+                <small>John Archibald Wheeler</small>
             </blockquote>
         </div>
         <div id="about" class="container-fluid font text-center">
@@ -54,6 +60,7 @@
     data () {
       return {
         title: 'My Personal Website',
+        profession: 'developer',
         name: 'Paul Werner',
       }
     }
