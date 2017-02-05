@@ -33,8 +33,15 @@
               "Python",
               "JavaScript",
               "HTML",
-              "CSS",
-              "Docker"
+              "CSS"
+            ]
+          },
+          {
+            grade: "Interests",
+            skills: [
+              "Node.js",
+              "Docker",
+              "Kubernetes"
             ]
           }
         ]
