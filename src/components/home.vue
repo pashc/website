@@ -41,13 +41,18 @@ Read more at http://izquotes.com/quote/327278]">
         <div id="contact" class="container-fluid font text-center">
             <h2>&lt;contact/&gt;</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                <a href="mailto:paul.w.werner@gmail.com" target="_blank">
+                    <img class="img-icon img-width" src="../assets/icon_mail.png">
+                </a>
+                <a href="https://github.com/pashc" target="_blank">
+                    <img class="img-icon img-width" src="../assets/icon_github.png">
+                </a>
+                <a href="https://www.xing.com/profile/Paul_Werner23" target="_blank">
+                    <img class="img-icon img-width" src="../assets/icon_xing.png">
+                </a>
+                <a href="https://de.linkedin.com/in/paul-werner" target="_blank">
+                    <img class="img-icon img-width" src="../assets/icon_linkedin.png">
+                </a>
             </p>
         </div>
     </div>
