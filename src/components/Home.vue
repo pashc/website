@@ -1,9 +1,10 @@
 <template>
-    <div class="main">
+    <div>
         <Cite></Cite>
         <About></About>
         <Projects></Projects>
         <Contact></Contact>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -12,6 +13,7 @@
   import About from "./About.vue"
   import Projects from "./Projects.vue"
   import Contact from "./Contact.vue"
+  import Footer from "./Footer.vue"
 
   export default {
     name: 'Home',
@@ -19,7 +21,8 @@
       Cite,
       About,
       Projects,
-      Contact
+      Contact,
+      Footer
     }
   }
 </script>
@@ -46,15 +49,6 @@
     .img-width {
         max-width: 100%;
         max-height: 100%;
-    }
-
-    .main {
-        background-color: #1a1a1a;
-        padding: 20px;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
     }
 
     h1 {
