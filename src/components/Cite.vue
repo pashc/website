@@ -30,7 +30,7 @@
   }
 </script>
 
-<style>
+<style scoped>
     blockquote {
         margin: 1.5em 10px;
         quotes: "\201C" "\201D" "\2018" "\2019";
