@@ -21,7 +21,7 @@
             "for fitness centers based on JavaScript and Java/Spring."
           },
           {
-            name: "Varengold GmbH",
+            name: "Varengold Bank AG",
             text: "Implement a settlement software for power of attorney traders in a modern investment bank."
           }
         ]
