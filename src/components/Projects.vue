@@ -1,5 +1,5 @@
 <template>
-    <div id="projects" class="container-fluid font text-center">
+    <div class="container-fluid font text-center">
         <h2>&lt;{{ title }}/&gt;</h2>
         <div v-for="project in projects">
             <h3>[{{ project.name }}]</h3>
@@ -17,13 +17,12 @@
         projects: [
           {
             name: "Magicline GmbH",
-            text: "The Magicline 2.0 is a reinvention of a award-winning customer administration tool " +
-            "for fitness centers based on Java and Spring."
+            text: "The Magicline 2.0 is a reinvention of a award-winning complete solution " +
+            "for fitness centers based on JavaScript and Java/Spring."
           },
           {
             name: "Varengold GmbH",
-            text: "Developing a payment system for power of attorney broker " +
-            "for a modern investment bank based on Java."
+            text: "Implement a settlement software for power of attorney traders in a modern investment bank."
           }
         ]
       }

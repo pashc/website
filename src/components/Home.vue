@@ -2,6 +2,7 @@
     <div>
         <Cite></Cite>
         <About></About>
+        <Skills></Skills>
         <Projects></Projects>
         <Contact></Contact>
         <Footer></Footer>
@@ -11,6 +12,7 @@
 <script>
   import Cite from "./Cite.vue"
   import About from "./About.vue"
+  import Skills from "./Skills.vue"
   import Projects from "./Projects.vue"
   import Contact from "./Contact.vue"
   import Footer from "./Footer.vue"
@@ -20,6 +22,7 @@
     components: {
       Cite,
       About,
+      Skills,
       Projects,
       Contact,
       Footer
