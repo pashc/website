@@ -17,7 +17,7 @@
         projects: [
           {
             name: "Magicline GmbH",
-            text: "The Magicline 2.0 is a reinvention of a award-winning complete solution " +
+            text: "The Magicline 2.0 is a reinvention of an award-winning complete solution " +
             "for fitness centers based on JavaScript and Java/Spring."
           },
           {
