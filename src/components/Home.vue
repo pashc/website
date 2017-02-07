@@ -31,21 +31,22 @@
 </script>
 
 <style>
+
     .container-fluid {
         background-color: #2d2d2d;
-        border: 1px solid #4c4c4c;
+        -webkit-box-shadow: 9px 8px 11px -4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 9px 8px 11px -4px rgba(0, 0, 0, 0.3);
+        box-shadow: 9px 8px 11px -4px rgba(0, 0, 0, 0.3);
         height: 50%;
         margin-top: 20px;
         margin-bottom: 20px;
-        min-width: 280px;
+        max-width: 700px;
         padding: 20px;
-        width: 50%;
     }
-
     .font {
         color: #d8d6cf;
         font-weight: normal;
-        font-size: calc(8px + 0.8vw);
+        font-size: 16px;
         font-family: Courier, serif;
     }
 
@@ -55,17 +56,17 @@
     }
 
     h1 {
-        font-size: calc(14px + 1.6vw)
+        font-size: 24px;
     }
 
     h2 {
-        font-size: calc(12px + 1.2vw);
+        font-size: 20px;
         font-weight: 100;
     }
 
     h3 {
         padding-top: 8px;
-        font-size: calc(10px + 1.0vw)
+        font-size: 18px;
     }
 
     h2, h3 {
