@@ -10,12 +10,12 @@
 </template>
 
 <script>
-  import Cite from "./Cite.vue"
-  import About from "./About.vue"
-  import Skills from "./Skills.vue"
-  import Projects from "./Projects.vue"
-  import Contact from "./Contact.vue"
-  import Footer from "./Footer.vue"
+  import Cite from "./Cite"
+  import About from "./About"
+  import Skills from "./Skills"
+  import Projects from "./Projects"
+  import Contact from "./Contact"
+  import Footer from "./Footer"
 
   export default {
     name: 'Home',
