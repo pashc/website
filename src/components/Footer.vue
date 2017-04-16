@@ -1,8 +1,22 @@
 <template>
-    <div class=" text-center font">
+    <div class="text-center font">
         <transition name="slide-fade">
-            <div class="container-fluid" v-if="show" @click="show = !show">
-                <h2>&lt;{{ title }}/&gt;</h2>
+            <div class="container-fluid pointer" v-if="show" @click="show = !show">
+                <h2>&lt;{{ title_legals }}/&gt;</h2>
+                <h3>information according to § 5 TMG</h3>
+                <p>
+                    Paul Werner<br/>
+                    Beim Schlump, 23<br/>
+                    20144 Hamburg </p>
+                <p>
+                    mobile: 0176/65703793 <br>
+                    email: paul.w.werner@gmail.com
+                </p>
+            </div>
+        </transition>
+        <transition name="slide-fade">
+            <div class="container-fluid pointer" v-if="show" @click="show = !show">
+                <h2>&lt;{{ title_disclaimer }}/&gt;</h2>
                 <p>The information contained on www.paulwerner.org (the "Website") is for general
                     information purposes only. </p>
 
@@ -31,9 +45,10 @@
             2017 by {{ author }}
         </div>
 
-        <div v-if="!show" @click="show = !show">
-            <span>Disclaimer</span>
+        <div class="pointer" v-if="!show" @click="show = !show">
+            <span>disclaimer</span>
         </div>
+
     </div>
 </template>
 
@@ -42,7 +57,8 @@
     name: 'Footer',
     data() {
       return {
-        title: "disclaimer",
+        title_legals: "legals",
+        title_disclaimer: "disclaimer",
         author: "Paul Werner",
         show: false
       }
@@ -53,6 +69,10 @@
 <style scoped>
     span {
         font-size: 12px;
+    }
+
+    .pointer {
+        cursor: pointer;
     }
 
     .footer_icon {
