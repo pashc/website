@@ -39,9 +39,10 @@
           {
             grade: "Interests",
             skills: [
-              "Node.js",
               "Docker",
-              "Kubernetes"
+              "Kubernetes",
+              "Blockchain",
+              "Machine Learning"
             ]
           }
         ]
