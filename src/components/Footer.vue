@@ -6,10 +6,9 @@
                 <h3>information according to § 5 TMG</h3>
                 <p>
                     Paul Werner<br/>
-                    Beim Schlump, 23<br/>
-                    20144 Hamburg </p>
+                    Holstenstr. 111<br/>
+                    22767 Hamburg</p>
                 <p>
-                    mobile: 0176/65703793 <br>
                     email: paul.w.werner@gmail.com
                 </p>
             </div>
