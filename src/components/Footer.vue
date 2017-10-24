@@ -9,7 +9,7 @@
                     Holstenstr. 111<br/>
                     22767 Hamburg</p>
                 <p>
-                    email: paul.w.werner@gmail.com
+                    email: paulwerner@protonmail.com
                 </p>
             </div>
         </transition>
