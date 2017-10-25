@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid font text-center">
-        <img src="../assets/avatar_small.png" class="img-circle img-width" alt="Paul Werner">
+        <img src="../../assets/avatar_small.png" class="img-circle img-width" alt="Paul Werner">
         <h1>{{ name }}</h1>
         <h2>&lt;{{ profession }}/&gt;</h2>
         <blockquote class="font" :cite="cite_src">

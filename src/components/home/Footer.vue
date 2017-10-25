@@ -40,7 +40,7 @@
         </transition>
 
         <div class="panel">
-            <img class="footer_icon" src="../assets/icon_cc.png" alt="Creative Commons by Paul Werner">
+            <img class="footer_icon" src="../../assets/icon_cc.png" alt="Creative Commons by Paul Werner">
             2017 by {{ author }}
         </div>
 
