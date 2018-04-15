@@ -11,42 +11,38 @@
 </template>
 
 <script>
-  export default {
-    name: "Skills",
-    data () {
-      return {
-        title: "skills",
-        abilities: [
-          {
-            grade: "Working Knowledge",
-            skills: [
-              "Java",
-              "Spring",
-              "Hibernate",
-              "PostgreSQL",
-              "MongoDB"
-            ]
-          },
-          {
-            grade: "Basic Knowledge",
-            skills: [
-              "Python",
-              "JavaScript",
-              "HTML",
-              "CSS"
-            ]
-          },
-          {
-            grade: "Interests",
-            skills: [
-              "Docker",
-              "Kubernetes",
-              "Blockchain",
-              "Machine Learning"
-            ]
-          }
-        ]
-      }
+    export default {
+        name: "Skills",
+        data() {
+            return {
+                title: "skills",
+                abilities: [
+                    {
+                        grade: "Working Knowledge",
+                        skills: [
+                            "Java/Spring",
+                            "Microservices",
+                            "Event-Driven Architecture"
+                        ]
+                    },
+                    {
+                        grade: "Basic Knowledge",
+                        skills: [
+                            "Python",
+                            "JavaScript",
+                            "HTML/CSS"
+                        ]
+                    },
+                    {
+                        grade: "Interests",
+                        skills: [
+                            "Blockchain",
+                            "Smart Contracts",
+                            "Machine Learning"
+                        ]
+                    }
+                ]
+            }
+        }
     }
-  }
 </script>
