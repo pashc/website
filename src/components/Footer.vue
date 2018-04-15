@@ -40,8 +40,7 @@
         </transition>
 
         <div class="panel">
-            <img class="footer_icon" src="../assets/icon_cc.png" alt="Creative Commons by Paul Werner">
-            2017 by {{ author }}
+            <img class="footer_icon" src="../assets/icon_cc.png" alt="Creative Commons"> 2018 by {{ author }}
         </div>
 
         <div class="pointer" v-if="!show" @click="show = !show">
