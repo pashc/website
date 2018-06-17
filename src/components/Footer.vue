@@ -40,7 +40,7 @@
         </transition>
 
         <div class="panel">
-            <img class="footer_icon" src="../assets/icon_cc.png" alt="Creative Commons"> 2018 by {{ author }}
+            &copy; 2018 by {{ author }}
         </div>
 
         <div class="pointer" v-if="!show" @click="show = !show">
@@ -73,26 +73,21 @@
         cursor: pointer;
     }
 
-    .footer_icon {
-        width: 35px;
-        height: 35px;
-    }
-
     .panel {
         background-color: #1a1a1a;
         margin-bottom: 0;
     }
 
-    .slide-fade-enter-active {
-        transition: all .3s ease;
-    }
+    /*.slide-fade-enter-active {*/
+    /*transition: all .3s ease;*/
+    /*}*/
 
-    .slide-fade-leave-active {
-        transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-    }
+    /*.slide-fade-leave-active {*/
+    /*transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);*/
+    /*}*/
 
-    .slide-fade-enter, .slide-fade-leave-to {
-        transform: translateX(10px);
-        opacity: 0;
-    }
+    /*.slide-fade-enter, .slide-fade-leave-to {*/
+    /*transform: translateX(10px);*/
+    /*opacity: 0;*/
+    /*}*/
 </style>
