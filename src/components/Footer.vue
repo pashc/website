@@ -3,7 +3,7 @@
         <transition name="slide-fade">
             <div class="container-fluid pointer" v-if="show" @click="show = !show">
                 <h2>&lt;{{ title_legals }}/&gt;</h2>
-                <h3>information according to § 5 TMG</h3>
+                <h3>Information pursuant to sec. 5 German Telemedia Act</h3>
                 <p>
                     Paul Werner<br/>
                     Holstenstr. 111<br/>
@@ -11,31 +11,70 @@
                 <p>
                     email: paulwerner@protonmail.com
                 </p>
+                <p>
+                    The content and works on this website (“Website”) are subject to German
+                    copyright law. The reproduction, processing, distribution and any kind
+                    of exploitation outside the limits of copyright require the written consent
+                    of Paul Werner or the respective author.
+                </p>
             </div>
         </transition>
         <transition name="slide-fade">
             <div class="container-fluid pointer" v-if="show" @click="show = !show">
+                <h2>&lt;{{ title_privacy }}/&gt;</h2>
+                <p>
+                    Controller of this website (“Website”) pursuant to the General Data Protection
+                    Regulation (“GDPR”) is Paul Werner.
+                </p>
+                <p>
+                    When you visit this Website your IP address of the requesting computer, date and
+                    time of access, name and URL of the retrieved file, website from which the access
+                    is made (referrer URL), and the browser used and, if applicable, the operating
+                    system of your computer and the name of your access provider are collected and
+                    processed. These data are processed to ensure a smooth connection setup of the
+                    website, a comfortable use of the Website, evaluation of system security and stability
+                    and for other administrative purposes. The legal basis for processing is
+                    Art. 6 (1) f) GDPR. The data is deleted as soon as it is not longer needed for the
+                    above mentioned purposes.
+                </p>
+                <p>
+                    When you contact Paul Werner via the above mentioned email, your email address and the
+                    personal data you might mention in it are processed for the purpose of answering you
+                    and/or responding to your corresponding request
+                </p>
+                <p>
+                    As a data subject you have the rights pursuant to chapter 3 <br> (Art. 12 – 23) GDPR.
+                </p>
+            </div>
+        </transition>
+
+        <transition name="slide-fade">
+            <div class="container-fluid pointer" v-if="show" @click="show = !show">
                 <h2>&lt;{{ title_disclaimer }}/&gt;</h2>
-                <p>The information contained on www.paulwerner.org (the "Website") is for general
-                    information purposes only. </p>
+                <p>
+                    The information on this Website is for general information purposes only.
+                    Paul Werner assumes no responsibility for errors or omissions in the contents
+                    of this Website.
+                </p>
 
-                <p> The Website assumes no responsibility for errors or omissions in the contents.</p>
+                <p> Paul Werner also reserves the right to make additions, deletions, modifications to the
+                    contents of the Website or even shut down the Website at any time without prior notice.
+                </p>
 
-                <p> In no event shall the Website be liable for any special, direct, indirect,
-                    consequential, or incidental damages or any damages whatsoever, whether in an action of
-                    contract, negligence or other tort, arising out of or in connection with the use of the website
-                    or the contents of the website. The Website reserves the right to make additions,
-                    deletions, or modification to the contents on the website at any time without prior notice. </p>
+                <p>
+                    Paul Werner does not guarantee that the Website is free of viruses or other harmful components.
+                </p>
 
-                <p> The Website does not warrant that it is free of viruses or other harmful components.</p>
+                <p>
+                    The Website contains links to external websites. Paul Werner is not liable or responsible for
+                    these external websites and contents. Should you have questions about these external websites,
+                    please direct them to the respecting providers.
+                </p>
 
-                <p> The Website contains links to external websites that are not provided or
-                    maintained by or in any way affiliated with the Website.</p>
+                <span>
+                    Last updated: June 24, 2018
+                </span>
 
-                <p> Please note that the website does not guarantee the accuracy, relevance, timeliness, or
-                    completeness of any information on these external websites. </p>
-
-                <span>Last updated: February 10, 2017</span>
             </div>
         </transition>
 
@@ -51,17 +90,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'Footer',
-    data() {
-      return {
-        title_legals: "legals",
-        title_disclaimer: "disclaimer",
-        author: "Paul Werner",
-        show: false
-      }
+    export default {
+        name: 'Footer',
+        data() {
+            return {
+                title_legals: "legal notice",
+                title_privacy: "privacy",
+                title_disclaimer: "disclaimer",
+                author: "Paul Werner",
+                show: false
+            }
+        }
     }
-  }
 </script>
 
 <style scoped>
@@ -78,16 +118,4 @@
         margin-bottom: 0;
     }
 
-    /*.slide-fade-enter-active {*/
-    /*transition: all .3s ease;*/
-    /*}*/
-
-    /*.slide-fade-leave-active {*/
-    /*transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);*/
-    /*}*/
-
-    /*.slide-fade-enter, .slide-fade-leave-to {*/
-    /*transform: translateX(10px);*/
-    /*opacity: 0;*/
-    /*}*/
 </style>
