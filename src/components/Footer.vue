@@ -71,8 +71,16 @@
                     please direct them to the respecting providers.
                 </p>
 
+                <div>
+                    Icons made by
+                    <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> are licensed by
+                    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">
+                        CC 3.0 BY
+                    </a>
+                </div>
                 <span>
-                    Last updated: June 24, 2018
+                    Last updated: September 13, 2018
                 </span>
 
             </div>
@@ -116,6 +124,22 @@
     .panel {
         background-color: #1a1a1a;
         margin-bottom: 0;
+    }
+
+    a:link {
+        color: #d8d6cf;
+    }
+
+    a:visited {
+        color: #d8d6cf;
+    }
+
+    a:hover {
+        color: #d8d6cf;
+    }
+
+    a:active {
+        color: #d8d6cf;
     }
 
 </style>

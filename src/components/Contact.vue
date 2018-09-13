@@ -3,16 +3,16 @@
         <h2>&lt;{{ title }}/&gt;</h2>
         <p>
             <a :href="mail_lnk" target="_blank">
-                <img class="img-icon img-width" src="../assets/icon_mail.png">
+                <img class="img-icon img-width" src="../assets/envelope.png">
             </a>
             <a :href="github_lnk" target="_blank">
-                <img class="img-icon img-width" src="../assets/icon_github.png">
+                <img class="img-icon img-width" src="../assets/github-sign.png">
             </a>
             <a :href="xing_lnk" target="_blank">
-                <img class="img-icon img-width" src="../assets/icon_xing.png">
+                <img class="img-icon img-width" src="../assets/xing-sign.png">
             </a>
             <a :href="linkedin_lnk" target="_blank">
-                <img class="img-icon img-width" src="../assets/icon_linkedin.png">
+                <img class="img-icon img-width" src="../assets/linkedin-sign.png">
             </a>
         </p>
     </div>
