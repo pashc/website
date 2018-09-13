@@ -9,7 +9,7 @@
                     Holstenstr. 111<br/>
                     22767 Hamburg</p>
                 <p>
-                    email: paulwerner@protonmail.com
+                    email: contact@paulwerner.org
                 </p>
                 <p>
                     The content and works on this website (“Website”) are subject to German
