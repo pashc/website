@@ -5,7 +5,7 @@
             <a :href="mail_lnk" target="_blank">
                 <img class="img-icon img-width" src="../assets/envelope.png">
             </a>
-            </br>
+            <br>
             <a :href="github_lnk" target="_blank">
                 <img class="img-icon img-width" src="../assets/github-sign.png">
             </a>
