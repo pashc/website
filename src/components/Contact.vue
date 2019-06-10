@@ -25,7 +25,7 @@
     data () {
       return {
         title: "contact",
-        mail_lnk: "mailto:contact@paulwerner.org",
+        mail_lnk: 'mailto:paulwerner@pm.me',
         github_lnk: "https://github.com/pashc",
         xing_lnk: "https://www.xing.com/profile/Paul_Werner23",
         linkedin_lnk: "https://de.linkedin.com/in/paul-werner"
