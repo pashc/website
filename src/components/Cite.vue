@@ -16,7 +16,7 @@
     data () {
       return {
         name: "Paul Werner",
-        profession: "developer",
+        profession: 'engineer',
         cite: "Einstein's Three Rules of Work: " +
         "Out of clutter find simplicity. " +
         "From discord find harmony. " +
