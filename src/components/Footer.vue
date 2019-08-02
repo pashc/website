@@ -87,7 +87,7 @@
         </transition>
 
         <div class="panel">
-            &copy; 2018 by {{ author }}
+            &copy; 2019 by {{ author }}
         </div>
 
         <div class="pointer" v-if="!show" @click="show = !show">
